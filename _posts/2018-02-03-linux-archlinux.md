@@ -4,6 +4,7 @@ title: 'archLinx'
 subtitle: 'archLinux安装'
 date: 2018-02-03
 categories: 'archLinux安装'
+cover: '{{ site.url }}my_pics/2018/minecrafts.jpg'
 tags: 'Linux'
 ---
 
