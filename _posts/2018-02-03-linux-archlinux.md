@@ -73,27 +73,27 @@ password......
 
 grub 引导，这里没装好，别想进系统....
 
-pacman -S grub os-prober
+`pacman -S grub os-prober`
 
-grub-install --target=i386-pc /dev/sda --recheck (有时候可能要 -f)MBR
+`grub-install --target=i386-pc /dev/sda --recheck` (有时候可能要 -f)MBR
 
-grub-mkconfig -o /boot/grub/grub.cfg (生成grub引导信息)
+`grub-mkconfig -o /boot/grub/grub.cfg` (生成grub引导信息)
 
-pacman -S xorg 基本的桌面
+`pacman -S xorg 基本的桌面
 
-pacman -S deepin deepin-extra lightdm deepin桌面
+`pacman -S deepin deepin-extra lightdm` deepin桌面
 
-pacman -S networkmanager 不联网就不要
+`pacman -S networkmanager` 不联网就不要
 
 一堆的字体。。。
 
-useradd -m -s /bin/bash user (添加用户，不加你会绝望的)
+`useradd -m -s /bin/bash user` (添加用户，不加你会绝望的)
 
-systemctl enable lightdm 还有那个联网的
+`systemctl enable lightdm` 还有那个联网的
 
 差不多了(`换mac`) 太折腾了
 
-`![](my_pics/2018/minecraft.png)` 
+![image01]({{ site.url }}/2018/minecraft.png)
 
 
 
