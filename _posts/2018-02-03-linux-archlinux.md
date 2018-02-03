@@ -4,7 +4,7 @@ title: 'archLinx'
 subtitle: 'archLinux安装'
 date: 2018-02-03
 categories: 'archLinux安装'
-cover: 'http://pixeltime.cn/my_pics/2018/minecrafts.jpg'
+cover: 'http://pixeltime.cn/my_pics/2018/minecraft.png'
 tags: 'Linux'
 ---
 
@@ -94,7 +94,7 @@ grub 引导，这里没装好，别想进系统....
 
 差不多了(`换mac`) 太折腾了
 
-![image01]({{ site.url }}my_pics/2018/minecraft.png)
+![image01]({{ site.url }}my_pics/2018/minecrafts.jpg)
 
 
 
