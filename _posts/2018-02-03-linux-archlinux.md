@@ -48,7 +48,7 @@ mkfs.格式化分区，mkswap 用于swap分区
 
 修改仓库: /etc/pacman.d/mirrorlist
 
-pacman -Syy (``)
+`pacman -Syy` 更新源
 
 安装基本系统
 
@@ -58,13 +58,13 @@ pacman -Syy (``)
 </code>
 </pre>
 
-生成fstab:genfstab -U /mnt >> /mnt/etc/fstab
+生成fstab:`genfstab -U /mnt >> /mnt/etc/fstab`
 
-进入正常的终端:arch-chroot /mnt /bin/bash
+进入正常的终端:`arch-chroot /mnt /bin/bash`
 
-设置时区:ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime (``)
+设置时区:`ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime`
 
-设置UTC时区:hwclock --systohc --utc
+设置UTC时区:`hwclock --systohc --utc`
 
 环境:`vi /etc/locale.gen `，after then   `locale-gen` then `echo LANG=en_US.UTF-8 > /etc/locale.conf`
 
