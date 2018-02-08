@@ -48,7 +48,7 @@ mkfs.格式化分区，mkswap 用于swap分区
 
 修改仓库: /etc/pacman.d/mirrorlist
 
-pacman -Syy (`这个命令有毒`)
+pacman -Syy (``)
 
 安装基本系统
 
@@ -62,35 +62,35 @@ pacman -Syy (`这个命令有毒`)
 
 进入正常的终端:arch-chroot /mnt /bin/bash
 
-设置时区:ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime (`假如你不在`)
+设置时区:ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime (``)
 
 设置UTC时区:hwclock --systohc --utc
 
-环境:/etc/locale.gen ，after then   `locale-gen` then `echo LANG=en_US.UTF-8 > /etc/locale.conf`
+环境:`vi /etc/locale.gen `，after then   `locale-gen` then `echo LANG=en_US.UTF-8 > /etc/locale.conf`
 
-hostname echo hostname > /etc/hostname
+hostname `echo hostname > /etc/hostname`
 
 password......
 
-grub 引导，这里没装好，别想进系统....
+grub 挺重要的....
 
 `pacman -S grub os-prober`
 
-`grub-install --target=i386-pc /dev/sda --recheck` (有时候可能要 -f)MBR
+`grub-install --target=i386-pc /dev/sda --recheck` (有时候可能要 -f)MBR这么做,UEFI就是其他的了
 
 `grub-mkconfig -o /boot/grub/grub.cfg` (生成grub引导信息)
 
-`pacman -S xorg 基本的桌面
+`pacman -S xorg` 基本的桌面
 
-`pacman -S deepin deepin-extra lightdm` deepin桌面
+`pacman -S deepin deepin-extra lightdm` deepin桌面(还需要配置一下)
 
-`pacman -S networkmanager` 不联网就不要
+`pacman -S networkmanager` 
 
-一堆的字体。。。
+`google fonts `,`adobe fonts`
 
-`useradd -m -s /bin/bash user` (添加用户，不加你会绝望的)
+`useradd -m -s /bin/bash user` (add user)
 
-`systemctl enable lightdm` 还有那个联网的
+`systemctl enable lightdm` 
 
 差不多了(`换mac`) 太折腾了
 
