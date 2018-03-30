@@ -7,6 +7,9 @@ tags:
 - Linux
 ---
 
+> archLinux 
+
+<!-- more -->
 当初看着官方的说明，和各种博客和贴吧，真的都有点放弃了。还好后面硬是杠上了。
 
 准备：win32Diskxxx，archLinux 镜像。。。
@@ -93,7 +96,7 @@ grub 挺重要的....
 
 差不多了(`换mac`) 太折腾了
 
-![image01]({{ site.url }}my_pics/2018/minecrafts.jpg)
+![image01]({{ site.url }}/my_pics/2018/minecrafts.jpg)
 
 
 
