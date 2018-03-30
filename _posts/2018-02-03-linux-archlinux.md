@@ -12,168 +12,87 @@ tags:
 
 <!-- more -->
 
-[Live Preview](http://simpleyyt.github.io/jekyll-theme-next/)
+当初看着官方的说明，和各种博客和贴吧，真的都有点放弃了。还好后面硬是杠上了。
 
-## Screenshots
+准备：win32Diskxxx，archLinux 镜像。。。
 
-* Desktop
-![Desktop Preview](http://iissnan.com/nexus/next/desktop-preview.png)
+希望能看到。。。
+<pre>
+<code class="lang-Bash">
+	root@archiso~#
+</code>
+</pre>
 
-* Sidebar
+联网。。。一般笔记本都自带网卡的吧、xk wifi-menu 就行了
 
-![Desktop Sidebar Preview](http://iissnan.com/nexus/next/desktop-sidebar-preview.png)
+好,同步一下时间吧
+<pre>
+<code class="lang-Bash">
+	root@archiso~# timedatectl set-ntp true
+</code>
+</pre>
 
-* Sidebar (Post details page)
+分区 cfdisk(MBR)/cgdisk(UEFI) ，MS-DOS。。。???、xk
 
-![Desktop Sidebar Preview](http://iissnan.com/nexus/next/desktop-sidebar-toc.png)
+mkfs.格式化分区，mkswap 用于swap分区
 
-* Mobile
+挂载分区
 
-![Mobile Preview](http://iissnan.com/nexus/next/mobile.png)
+<pre>
+<code class="lang-Bash">
+	root@archiso~# mount /dev/sdax /mnt
+</code>
+</pre>
 
+交换分区用swapon /dev/sdax
+其他分区记得先mkdir!
 
-## Installation
+修改仓库: /etc/pacman.d/mirrorlist
 
-Check whether you have `Ruby 2.1.0` or higher installed:
+`pacman -Syy` 更新源
 
-```sh
-ruby --version
-```
+安装基本系统
 
-Install `Bundler`:
+<pre>
+<code class="lang-Bash">
+	root@archiso~# pacstrap /mnt base base-devel iw dialog wpa_supplicant wpa_actiond
+</code>
+</pre>
 
-```sh
-gem install bundler
-```
+生成fstab:`genfstab -U /mnt >> /mnt/etc/fstab`
 
-Clone Jacman theme:
+进入正常的终端:`arch-chroot /mnt /bin/bash`
 
-```sh
-git clone https://github.com/Simpleyyt/jekyll-theme-next.git
-cd jekyll-theme-next
-```
+设置时区:`ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime`
 
-Install Jekyll and other dependencies from the GitHub Pages gem:
+设置UTC时区:`hwclock --systohc --utc`
 
-```sh
-bundle install
-```
+环境:`vi /etc/locale.gen `，after then   `locale-gen` then `echo LANG=en_US.UTF-8 > /etc/locale.conf`
 
-Run your Jekyll site locally:
+hostname `echo hostname > /etc/hostname`
 
-```sh
-bundle exec jekyll server
-```
+password......
 
-More Details：[Setting up your GitHub Pages site locally with Jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
+grub 挺重要的....
 
+`pacman -S grub os-prober`
 
-## Features
+`grub-install --target=i386-pc /dev/sda --recheck` (有时候可能要 -f)MBR这么做,UEFI就是其他的了
 
-### Multiple languages support, including: English / Russian / French / German / Simplified Chinese / Traditional Chinese.
+`grub-mkconfig -o /boot/grub/grub.cfg` (生成grub引导信息)
 
-Default language is English.
+`pacman -S xorg` 基本的桌面
 
-```yml
-language: en
-# language: zh-Hans
-# language: fr-FR
-# language: zh-hk
-# language: zh-tw
-# language: ru
-# language: de
-```
+`pacman -S deepin deepin-extra lightdm` deepin桌面(还需要配置一下)
 
-Set `language` field as following in site `_config.yml` to change to Chinese.
+`pacman -S networkmanager` 
 
-```yml
-language: zh-Hans
-```
+`google fonts `,`adobe fonts`
 
-### Comment support.
+`useradd -m -s /bin/bash user` (add user)
 
-NexT has native support for `DuoShuo` and `Disqus` comment systems.
+`systemctl enable lightdm` 
 
-Add the following snippets to your `_config.yml`:
+差不多了(`换mac`) 太折腾了
 
-```yml
-duoshuo:
-  enable: true
-  shortname: your-duoshuo-shortname
-```
-
-OR
-
-```yml
-disqus_shortname: your-disqus-shortname
-```
-
-### Social Media
-
-NexT can automatically add links to your Social Media accounts:
-
-```yml
-social:
-  GitHub: your-github-url
-  Twitter: your-twitter-url
-  Weibo: your-weibo-url
-  DouBan: your-douban-url
-  ZhiHu: your-zhihu-url
-```
-
-### Feed link.
-
-> Show a feed link.
-
-Set `rss` field in theme's `_config.yml`, as the following value:
-
-1. `rss: false` will totally disable feed link.
-2. `rss:  ` use sites' feed link. This is the default option.
-
-    Follow the installation instruction in the plugin's README. After the configuration is done for this plugin, the feed link is ready too.
-
-3. `rss: http://your-feed-url` set specific feed link.
-
-### Up to 5 code highlight themes built-in.
-
-NexT uses [Tomorrow Theme](https://github.com/chriskempson/tomorrow-theme) with 5 themes for you to choose from.
-Next use `normal` by default. Have a preview about `normal` and `night`:
-
-![Tomorrow Normal Preview](http://iissnan.com/nexus/next/tomorrow-normal.png)
-![Tomorrow Night Preview](http://iissnan.com/nexus/next/tomorrow-night.png)
-
-Head over to [Tomorrow Theme](https://github.com/chriskempson/tomorrow-theme) for more details.
-
-## Configuration
-
-NexT comes with few configurations.
-
-```yml
-
-# Menu configuration.
-menu:
-  home: /
-  archives: /archives
-
-# Favicon
-favicon: /favicon.ico
-
-# Avatar (put the image into next/source/images/)
-# can be any image format supported by web browsers (JPEG,PNG,GIF,SVG,..)
-avatar: /default_avatar.png
-
-# Code highlight theme
-# available: normal | night | night eighties | night blue | night bright
-highlight_theme: normal
-
-# Fancybox for image gallery
-fancybox: true
-
-# Specify the date when the site was setup
-since: 2013
-
-```
-
-## Browser support
-
-![Browser support](http://iissnan.com/nexus/next/browser-support.png)
+![image01]({{ site.url }}my_pics/2018/minecrafts.jpg)
