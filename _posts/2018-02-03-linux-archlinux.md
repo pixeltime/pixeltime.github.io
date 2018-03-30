@@ -1,12 +1,13 @@
 ---
-title: Next Theme Tutorial
-description: NexT is a high quality elegant Jekyll theme ported from Hexo Next. It is crafted from scratch, with love.
+title: archLinux
+description: archLinux 安装
 categories:
- - tutorial
+ - archLinux
 tags:
+ - Linux
 ---
 
-> NexT is a high quality elegant [Jekyll](https://jekyllrb.com) theme ported from [Hexo Next](https://github.com/iissnan/hexo-theme-next). It is crafted from scratch, with love.
+> archLinux安装
 
 
 <!-- more -->
