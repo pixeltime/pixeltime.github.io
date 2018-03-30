@@ -2,12 +2,13 @@
 title: archLinx
 date: 2018-02-03
 categories:
-- archLinux安装
+ - archLinux安装
 tags: 
 - Linux
 ---
 
 > archLinux 
+
 
 <!-- more -->
 当初看着官方的说明，和各种博客和贴吧，真的都有点放弃了。还好后面硬是杠上了。
