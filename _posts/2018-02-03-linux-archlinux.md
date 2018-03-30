@@ -1,6 +1,7 @@
 ---
 title: archLinux
 description: archLinux 安装
+date: 2018-02-03
 categories:
  - archLinux
 tags:
