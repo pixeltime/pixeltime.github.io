@@ -95,4 +95,4 @@ grub 挺重要的....
 
 差不多了(`换mac`) 太折腾了
 
-![image01]({{ site.url }}my_pics/2018/minecrafts.jpg)
+![image01]({{ site.url }}/my_pics/2018/minecrafts.jpg)
