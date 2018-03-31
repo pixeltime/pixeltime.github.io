@@ -3,7 +3,7 @@ title: fdisk
 description: fdisk
 date: 2018-03-31
 categories:
- - Linux/fdisk
+ - Linux
 tags:
  - Linux
 ---
