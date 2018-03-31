@@ -16,14 +16,14 @@ tags:
 ## 很简单但实用的命令,可以查看磁盘信息.(当然也可以使用`lsblk /dev/yourdisk`)
 
 ```sh
-root@slackware:/# fdisk -l
+whoami@root:/# fdisk -l
 ```
 
 它会检测出你的所有磁盘
  eg:
  
 ```sh
-root@slackware:/# fdisk -l
+whoami@root:/# fdisk -l
 
 Disk /dev/sda: 1 GB, 1024 bytes
 
