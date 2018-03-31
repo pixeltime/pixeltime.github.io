@@ -79,7 +79,9 @@ First cylinder (1-8841, default 1): 1
 Last cylinder or +size or +sizeM or +sizeK (1-8841, default 8841): +4G
 ```
 `n` 表示创建一个分区
+
 `e`与`p` 表示扩展分区和主分区,(主分区一般都是4个一下...)
+
 `1`与`+4G`表示柱面开始是1,结束是4096....
 
 如果分一个swap分区,则要改变`system id`(如果使用`cfdisk`,可以明显的查看,83Linux,84则是Linux swap)
@@ -99,9 +101,11 @@ Hex code (type L to list codes): 82
 mkfs.extx 格式化分区
 
 `mount /dev/sdayourdisknum /mnt` 挂载`/`分区(其他分区也一样)
+
 `mkdir /mnt/home`,`mount /dev/sdayourdisknum /mnt/home` 挂载`/home` 分区
 
 `mkswap /dev/sdayourdisknum` 交换分区使用
+
 `swapon /dev/sdayourdisknum` 激活交换分区
 
 
