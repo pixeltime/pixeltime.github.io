@@ -19,4 +19,4 @@ FFmpeg能干啥,<a href="https://zh.wikipedia.org/wiki/FFmpeg">https://zh.wikipe
 
 搞事....
 
-![gs]({{ site.url }}/my_pics/gs/gs.gif)
+![gs]({{ site.url }}/my_pics/2018/gs/hhh.gif)
