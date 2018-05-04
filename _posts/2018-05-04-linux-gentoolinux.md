@@ -23,3 +23,13 @@ tags:
 Google 了一堆(然并软啊,重新来一遍得了)
 
 ![image01]({{ site.url }}/my_pics/2018/gentoo/kernel.jpg)
+
+
+-------------------------更新---------------------------
+
+
+装好了![image01]({{ site.url }}/my_pics/2018/gentoo/huaji.png)![image01]({{ site.url }}/my_pics/2018/gentoo/huaji.png)![image01]({{ site.url }}/my_pics/2018/gentoo/huaji.png)
+
+![image01]({{ site.url }}/my_pics/2018/gentoo/gentooscr.png)
+
+
