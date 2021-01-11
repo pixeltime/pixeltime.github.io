@@ -79,6 +79,12 @@
   </a>
   {%- endif -%}
 
+  {%- if social.steam -%}
+  <a href="#" rel="nofollow">
+    <span class="lin-icon-steam"></span>
+  </a>
+  {%- endif -%}
+
   {%- if social.rss -%}
   <a href="{{ 'feed.xml' | relative_url }}" rel="nofollow">
     <span class="lin-icon-rss"></span>
