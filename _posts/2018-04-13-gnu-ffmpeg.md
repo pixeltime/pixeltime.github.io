@@ -1,11 +1,7 @@
 ---
-title: FFmpeg
-description: FFmpeg
-date: 2018-03-31
-categories:
- - FFmpeg
-tags:
- - FFmpeg
+layout: post
+title: "记录一次搞事经历..."
+categories: FFmpeg
 ---
 
 > 记录一次搞事经历...
