@@ -37,7 +37,7 @@ lin:
     #googleplus: +jekyll
     #keybase: jekyll
 
-theme: lin
+#theme: lin
 
 plugins:
  - jekyll-feed
