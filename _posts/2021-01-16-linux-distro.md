@@ -22,7 +22,7 @@ KaOS，听之前说是基于Arch的，便联想起了AUR。yaourt竟然不更新
 ```sh
 Deepin
 ```
-![gs]({{ site.url }}/my_pics/2021/deepin/deepin_01.jpeg)
+![gs]({{ site.url }}/my_pics/2021/deepin/deepin_01.jpeg){:height="100px" width="400px"}
 
 ```sh
 CentOS
@@ -70,9 +70,9 @@ Fedora
 ```sh
 Kali Linux
 ```
-![gs]({{ site.url }}/my_pics/2021/kalililnux/kalilinux_01.jpeg)
-![gs]({{ site.url }}/my_pics/2021/kalililnux/kalilinux_02.jpeg)
-![gs]({{ site.url }}/my_pics/2021/kalililnux/kalilinux_03.jpeg)
+![gs]({{ site.url }}/my_pics/2021/kalilinux/kalilinux_01.jpeg)
+![gs]({{ site.url }}/my_pics/2021/kalilinux/kalilinux_02.jpeg)
+![gs]({{ site.url }}/my_pics/2021/kalilinux/kalilinux_03.jpeg)
 
 ```sh
 Ubuntu
