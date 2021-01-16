@@ -22,7 +22,7 @@ KaOS，听之前说是基于Arch的，便联想起了AUR。yaourt竟然不更新
 ```sh
 Deepin
 ```
-![gs]({{ site.url }}/my_pics/2021/deepin/deepin_01.jpeg){:height="100px" width="400px"}
+![gs]({{ site.url }}/my_pics/2021/deepin/deepin_01.jpeg){:height="500px" width="800px"}
 
 ```sh
 CentOS
