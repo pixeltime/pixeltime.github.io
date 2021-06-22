@@ -1,8 +1,8 @@
-title: Jiendelee kucheza , endelea kucheza
+title: 接着奏乐,接着舞
 author: pixeltime
 email: pixeltime@pixeltime.cn
 url: http://www.pixeltime.cn
-copyright: © 2018 pixeltime
+copyright: © 2021 pixeltime
 description: > # this means to ignore newlines until "show_excerpts:"
   制造垃圾者...
 
@@ -20,20 +20,20 @@ lin:
     #github:  jekyll
     #medium:  jekyll
     steam: Wangseetwo
-    rss: rss
-    applepay: applepay
-    wechat: wechat
-    tencentqq: tencentqq
-    sinaweibo: sinaweibo
+    #rss: rss
+    #applepay: applepay
+    #wechat: wechat
+    #tencentqq: tencentqq
+    #sinaweibo: sinaweibo
     #dribbble: jekyll
     #facebook: jekyll
     #flickr:   jekyll
-    #instagram: jekyll
+    instagram: instagram
     #linkedin: jekyll
     #pinterest: jekyll
     #youtube_user: jekyll
     #youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    #telegram: jekyll
+    telegram: telegram
     #googleplus: +jekyll
     #keybase: jekyll
 

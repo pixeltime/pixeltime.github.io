@@ -10,11 +10,11 @@ categories: Linux
 
 一开始便是Ubuntu16。为什么是16，因为我不喜欢GNOME桌面，虽然也折腾过GNOME。Unity可以说不经过任何美化就很好看了，即开箱即用，但还是用不惯，便不打算。
 
-后面是KDE neon。K系从4到5都有体验过，可惜之前一直没用下去。国内好像也没有neon的源（一直用的Ubuntu的...）
+后面是KDE neon。K系从4到5都有体验过，可惜之前一直没用下去。
 
 openSUSE 也尝试过。没啥感觉。
 
-KaOS，听之前说是基于Arch的，便联想起了AUR。yaourt竟然不更新了...（Goodbye My Youth）
+KaOS，听之前说是基于Arch的，便联想起了AUR。yaourt竟然不更新了...
 之所以打算用KaOS也和AUR有关系吧，毕竟用过的都知道。省略了Arch繁琐的安装步骤，直接体验AUR带来的快感。（国内有源）
 
 ## 那些年折腾的系统
