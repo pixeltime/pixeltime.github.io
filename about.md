@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-绝非善类
+只不过是将做成的事从左边移到了右边,绝非善类
