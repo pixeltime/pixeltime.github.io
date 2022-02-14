@@ -16,10 +16,10 @@ lin:
 
   # generate social links
   social_links:
-    twitter: pixeltimg
+    #twitter: pixeltimg
     #github:  jekyll
     #medium:  jekyll
-    steam: Wangseetwo
+    #steam: Wangseetwo
     #rss: rss
     #applepay: applepay
     #wechat: wechat
@@ -28,12 +28,12 @@ lin:
     #dribbble: jekyll
     #facebook: jekyll
     #flickr:   jekyll
-    instagram: instagram
+    #instagram: instagram
     #linkedin: jekyll
     #pinterest: jekyll
     #youtube_user: jekyll
     #youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    telegram: telegram
+    #telegram: telegram
     #googleplus: +jekyll
     #keybase: jekyll
 
