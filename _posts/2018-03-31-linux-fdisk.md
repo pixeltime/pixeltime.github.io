@@ -4,12 +4,12 @@ title: "fdisk"
 categories: Linux
 ---
 
-> fdisk command ,记得最开始只会用cfdisk...
+> fdisk command
 
 
 <!-- more -->
 
-## 很简单但实用的命令,可以查看磁盘信息.(当然也可以使用`lsblk /dev/yourdisk`)
+## 简单实用的命令,可以查看磁盘信息.(当然也可以使用`lsblk /dev/yourdisk`)
 
 ```sh
 whoami@root:/# fdisk -l
