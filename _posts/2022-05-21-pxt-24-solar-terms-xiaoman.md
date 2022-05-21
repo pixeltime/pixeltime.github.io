@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "立夏"
+title: "小满"
 categories: 24 Solar Terms
 ---
 
-> 5月5日 今日 立夏
+> 5月24日 今日 小满
