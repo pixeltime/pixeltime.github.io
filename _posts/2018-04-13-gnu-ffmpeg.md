@@ -2,7 +2,7 @@
 title: "记录一次搞事经历"
 date: 2018-04-13 +0800
 categories: ["搞事"]
-tags: [ffmpge]
+tags: [ffmpeg]
 ---
 
 > 记录一次搞事经历...
