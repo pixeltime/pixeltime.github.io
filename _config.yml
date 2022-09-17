@@ -83,7 +83,7 @@ theme_mode:   # [light|dark]
 img_cdn: https://github.com/pixeltime/pixeltime.github.io/images
 
 # the avatar on sidebar, support local or CORS resources
-avatar:/assets/images/avatar.jpg
+avatar: /assets/images/avatar.jpg
 
 # boolean type, the global switch for ToC in posts.
 toc: true
