@@ -1,1 +1,0 @@
-Powered by <a href="//jekyllrb.com">Jekyll</a> | <a href="https://github.com/ssokurenko/jekyll-lin-theme">Jekyll lin theme</a>
