@@ -3,6 +3,7 @@ title: "我是更希望成为第二种"
 date: 2020-04-30 +0800
 categories: ["三和大神"]
 tags: [life]
+pin: true
 ---
 
 
