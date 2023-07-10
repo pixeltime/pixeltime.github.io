@@ -17,5 +17,5 @@ tags: [life]
 
 ——就像是故事封笔时，偷走的那段春。
 
-<a href="https://www.bilibili.com/video/BV1Xt411F7tn/">【音阙诗听/李佳思】《雨水》</a>
+<a href="https://www.bilibili.com/video/BV1G741177X4/">【音阙诗听/李佳思】《雨水》</a>
 
