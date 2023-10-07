@@ -4,4 +4,4 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-外乡人
+infp：这个世界可真是讨厌呢。
